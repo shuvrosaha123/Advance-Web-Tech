@@ -1,0 +1,28 @@
+bus-ticket-system/
+│
+├── backend/ (NestJS)
+│   ├── src/
+│   │   ├── auth/
+│   │   ├── users/
+│   │   ├── buses/
+│   │   ├── bookings/
+│   │   ├── prisma/
+│   │   ├── main.ts
+│   │   └── app.module.ts
+│   ├── prisma/
+│   │   └── schema.prisma
+│   └── package.json
+│
+├── frontend/ (Next.js)
+│   ├── pages/
+│   │   ├── index.tsx
+│   │   ├── login.tsx
+│   │   ├── register.tsx
+│   │   ├── buses.tsx
+│   │   ├── booking/[id].tsx
+│   │   └── dashboard.tsx
+│   ├── lib/
+│   │   └── api.ts
+│   └── package.json
+│
+└── docker-compose.yml
