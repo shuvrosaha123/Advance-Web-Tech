@@ -1,0 +1,1 @@
+npm i @nestjs/common @nestjs/core @nestjs/jwt @nestjs/passport passport passport-jwt bcrypt prisma @prisma/client
